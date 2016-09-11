@@ -1,0 +1,47 @@
+img {
+	float: left;
+	margin: 0 10px 0px 0;
+	border: 1px solid silver;
+}
+p {
+	text-align: justify;
+	//margin-top: 20px;
+}
+.left {
+	float: left;
+	margin: 20px 20px 10px 0;
+}
+.left +h2 {
+	color: navy;
+	text-align: left;
+}
+.right {
+	float: right;
+	margin: 20px 0 10px 20px;
+}
+.right + h2 {
+	text-align: right;
+}
+article {
+	background: beige;
+	border: 3px double olive;
+	padding: 0px 20px;
+	margin-bottom : 20px;
+}
+.preview {
+	margin: 50px;
+	width: 600px;
+	//line-height: 150px;
+	padding: 10px;
+	border: 1px dotted silver;
+	font: 15px/20px "oswald regular";
+	background: bisque url() 0 0 no-repeat;
+	display: table;
+}
+.cell {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+
+
